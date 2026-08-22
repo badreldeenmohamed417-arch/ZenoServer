@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>MasterKey Mobile Test</title>
+</head>
+<body>
+
+<h1>MasterKey Mobile</h1>
+
+<button onclick="connect()">Find MasterKey</button>
+
+<pre id="result"></pre>
+
+<script>
+async function connect() {
+    const result = document.getElementById("result");
+
+    try {
+        const response = await fetch(
+            "http://masterkey.local:8765/api/discover"
+        );
+
+        const data = await response.json();
+
+        result.textContent =
+            "FOUND!\n" + JSON.stringify(data, null, 2);
+
+    } catch (error) {
+        result.textContent =
+            "FAILED:\n" + error;
+    }
+}
+</script>
+
+</body>
+</html>
