@@ -1,11 +1,17 @@
+from pathlib import Path
+
 from pydantic_settings import BaseSettings, SettingsConfigDict
+
+
+# /home/badr-eldeen/Documents/ZenoServer/MainServer
+BASE_DIR = Path(__file__).resolve().parents[2]
 
 
 class Settings(BaseSettings):
     DATABASE_URL: str
     SECRET_KEY: str
 
-    # Backblaze B2 (S3-compatible). Optional until object storage is used.
+    # Backblaze B2
     B2_KEY_ID: str = ""
     B2_APPLICATION_KEY: str = ""
     B2_BUCKET_NAME: str = ""
@@ -21,10 +27,10 @@ class Settings(BaseSettings):
     SENDER_EMAIL: str = "noreply@zeno.local"
     SENDER_NAME: str = "Zeno"
 
-    # Public URL used in email links
+    # Public URL
     PUBLIC_API_BASE_URL: str = "http://127.0.0.1:8000"
     PASSWORD_RESET_URL: str = (
-        "http://127.0.0.1:3000/reset-password"  # Frontend reset page; receives ?token=...
+        "http://127.0.0.1:3000/reset-password"
     )
 
     # Application limits
@@ -34,13 +40,14 @@ class Settings(BaseSettings):
     REFRESH_TOKEN_EXPIRE_DAYS: int = 30
     DEFAULT_FREE_PLAN_TOKENS: int = 1000
     AI_MESSAGE_TOKEN_COST: int = 10
+
     SERVER_TO_SERVER_SECRET: str
 
-    # Google ID
+    # Google
     GOOGLE_CLIENT_ID: str
 
     model_config = SettingsConfigDict(
-        env_file=".env",
+        env_file=BASE_DIR / ".env",
         extra="ignore",
         case_sensitive=False,
     )
