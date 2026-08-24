@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "document_id": "science_prep1_term1_2026",
+  "pages": 102,
+  "processed_pages": 79,
+  "ignored_pages": 23,
+  "chunks": 55,
+  "warnings": [],
+  "errors": [],
+  "extraction": {
+    "pages": 102,
+    "empty_pages": [],
+    "suspicious_pages": [],
+    "duplicate_pages": [],
+    "warnings": [],
+    "errors": []
+  },
+  "structure": {
+    "ignored_pages": 23,
+    "assigned_pages": 79,
+    "unassigned_pages": [],
+    "warnings": [],
+    "errors": []
+  },
+  "chunk_validation": {
+    "chunks": 55,
+    "tiny_chunks": [],
+    "huge_chunks": [],
+    "duplicate_chunks": [],
+    "overlaps": [
+      [
+        "49a00956ca65055a151861155568cb954f43aa68",
+        "021baa3c6c30b181527769e2774f0d46a43e9ead"
+      ]
+    ],
+    "warnings": [],
+    "errors": []
+  }
+}

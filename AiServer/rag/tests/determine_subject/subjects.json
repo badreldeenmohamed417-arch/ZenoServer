@@ -1,0 +1,699 @@
+{
+  "subjects": {
+    "grade_1_prep": {
+      "name": "الصف الأول الإعدادي",
+      "type": "prep",
+      "subjects": [
+        {
+          "id": "arabic",
+          "name": "اللغة العربية",
+          "name_en": "Arabic",
+          "keywords": ["إعراب", "نحو", "بلاغة", "فعل", "اسم", "حرف", "جملة", "قراءة", "نص", "قصة", "شعر", "مطالعة"],
+          "document_id": "arabic_1_prep",
+          "term": "term_1"
+        },
+        {
+          "id": "math",
+          "name": "الرياضيات",
+          "name_en": "Mathematics",
+          "keywords": ["جمع", "طرح", "ضرب", "قسمة", "معادلة", "كسور", "نسبة", "تناسب", "هندسة", "مساحة", "محيط", "حجم"],
+          "document_id": "math_1_prep",
+          "term": "term_1"
+        },
+        {
+          "id": "science",
+          "name": "العلوم",
+          "name_en": "Science",
+          "keywords": ["خلية", "طاقة", "حركة", "ضوء", "صوت", "كثافة", "مادة", "كائن", "حي", "نبات", "حيوان", "جهاز", "عضوية"],
+          "document_id": "science_1_prep",
+          "term": "term_1"
+        },
+        {
+          "id": "social",
+          "name": "الدراسات الاجتماعية",
+          "name_en": "Social Studies",
+          "keywords": ["نهر", "صحراء", "محافظة", "تاريخ", "جغرافيا", "خريطة", "حضارة", "فرعون", "وطن", "مصر", "النيل", "دولة"],
+          "document_id": "social_1_prep",
+          "term": "term_1"
+        },
+        {
+          "id": "english",
+          "name": "اللغة الإنجليزية",
+          "name_en": "English",
+          "keywords": ["verb", "noun", "adjective", "adverb", "tense", "grammar", "vocabulary", "sentence", "reading", "writing", "speaking"],
+          "document_id": "english_1_prep",
+          "term": "term_1"
+        }
+      ]
+    },
+    "grade_2_prep": {
+      "name": "الصف الثاني الإعدادي",
+      "type": "prep",
+      "subjects": [
+        {
+          "id": "arabic",
+          "name": "اللغة العربية",
+          "name_en": "Arabic",
+          "keywords": ["إعراب", "نحو", "بلاغة", "فعل", "اسم", "حرف", "جملة", "قراءة", "نص", "قصة", "شعر", "مطالعة"],
+          "document_id": "arabic_2_prep",
+          "term": "term_1"
+        },
+        {
+          "id": "math",
+          "name": "الرياضيات",
+          "name_en": "Mathematics",
+          "keywords": ["جمع", "طرح", "ضرب", "قسمة", "معادلة", "كسور", "نسبة", "تناسب", "هندسة", "مساحة", "محيط", "حجم"],
+          "document_id": "math_2_prep",
+          "term": "term_1"
+        },
+        {
+          "id": "science",
+          "name": "العلوم",
+          "name_en": "Science",
+          "keywords": ["خلية", "طاقة", "حركة", "ضوء", "صوت", "كثافة", "مادة", "كائن", "حي", "نبات", "حيوان", "جهاز", "عضوية"],
+          "document_id": "science_2_prep",
+          "term": "term_1"
+        },
+        {
+          "id": "social",
+          "name": "الدراسات الاجتماعية",
+          "name_en": "Social Studies",
+          "keywords": ["نهر", "صحراء", "محافظة", "تاريخ", "جغرافيا", "خريطة", "حضارة", "فرعون", "وطن", "مصر", "النيل", "دولة"],
+          "document_id": "social_2_prep",
+          "term": "term_1"
+        },
+        {
+          "id": "english",
+          "name": "اللغة الإنجليزية",
+          "name_en": "English",
+          "keywords": ["verb", "noun", "adjective", "adverb", "tense", "grammar", "vocabulary", "sentence", "reading", "writing", "speaking"],
+          "document_id": "english_2_prep",
+          "term": "term_1"
+        }
+      ]
+    },
+    "grade_3_prep": {
+      "name": "الصف الثالث الإعدادي",
+      "type": "prep",
+      "subjects": [
+        {
+          "id": "arabic",
+          "name": "اللغة العربية",
+          "name_en": "Arabic",
+          "keywords": ["إعراب", "نحو", "بلاغة", "فعل", "اسم", "حرف", "جملة", "قراءة", "نص", "قصة", "شعر", "مطالعة"],
+          "document_id": "arabic_3_prep",
+          "term": "term_1"
+        },
+        {
+          "id": "math",
+          "name": "الرياضيات",
+          "name_en": "Mathematics",
+          "keywords": ["جمع", "طرح", "ضرب", "قسمة", "معادلة", "كسور", "نسبة", "تناسب", "هندسة", "مساحة", "محيط", "حجم"],
+          "document_id": "math_3_prep",
+          "term": "term_1"
+        },
+        {
+          "id": "science",
+          "name": "العلوم",
+          "name_en": "Science",
+          "keywords": ["خلية", "طاقة", "حركة", "ضوء", "صوت", "كثافة", "مادة", "كائن", "حي", "نبات", "حيوان", "جهاز", "عضوية"],
+          "document_id": "science_3_prep",
+          "term": "term_1"
+        },
+        {
+          "id": "social",
+          "name": "الدراسات الاجتماعية",
+          "name_en": "Social Studies",
+          "keywords": ["نهر", "صحراء", "محافظة", "تاريخ", "جغرافيا", "خريطة", "حضارة", "فرعون", "وطن", "مصر", "النيل", "دولة"],
+          "document_id": "social_3_prep",
+          "term": "term_1"
+        },
+        {
+          "id": "english",
+          "name": "اللغة الإنجليزية",
+          "name_en": "English",
+          "keywords": ["verb", "noun", "adjective", "adverb", "tense", "grammar", "vocabulary", "sentence", "reading", "writing", "speaking"],
+          "document_id": "english_3_prep",
+          "term": "term_1"
+        }
+      ]
+    },
+    "grade_1_secondary": {
+      "name": "الصف الأول الثانوي (عام)",
+      "type": "secondary",
+      "subjects": [
+        {
+          "id": "arabic",
+          "name": "اللغة العربية",
+          "name_en": "Arabic",
+          "keywords": ["إعراب", "نحو", "بلاغة", "فعل", "اسم", "حرف", "جملة", "قراءة", "نص", "قصة", "شعر", "مطالعة"],
+          "document_id": "arabic_1_sec",
+          "term": "term_1"
+        },
+        {
+          "id": "english",
+          "name": "اللغة الإنجليزية",
+          "name_en": "English",
+          "keywords": ["verb", "noun", "adjective", "adverb", "tense", "grammar", "vocabulary", "sentence", "reading", "writing", "speaking"],
+          "document_id": "english_1_sec",
+          "term": "term_1"
+        },
+        {
+          "id": "math",
+          "name": "الرياضيات",
+          "name_en": "Mathematics",
+          "keywords": ["جبر", "هندسة", "تفاضل", "تكامل", "معادلة", "دالة", "مصفوفة", "احتمال", "إحصاء"],
+          "document_id": "math_1_sec",
+          "term": "term_1"
+        },
+        {
+          "id": "history",
+          "name": "التاريخ",
+          "name_en": "History",
+          "keywords": ["تاريخ", "حضارة", "فرعون", "رومان", "إسلام", "دولة", "خلافة", "مصر", "عصر", "عهد"],
+          "document_id": "history_1_sec",
+          "term": "term_1"
+        },
+        {
+          "id": "philosophy",
+          "name": "الفلسفة والمنطق",
+          "name_en": "Philosophy & Logic",
+          "keywords": ["فلسفة", "منطق", "فكر", "أخلاق", "قضية", "استدلال", "برهان", "أفلاطون", "أرسطو"],
+          "document_id": "philosophy_1_sec",
+          "term": "term_1"
+        },
+        {
+          "id": "integrated_science",
+          "name": "العلوم المتكاملة",
+          "name_en": "Integrated Science",
+          "keywords": ["خلية", "طاقة", "حركة", "ضوء", "صوت", "كثافة", "مادة", "كائن", "حي", "نبات", "حيوان"],
+          "document_id": "integrated_science_1_sec",
+          "term": "term_1"
+        }
+      ]
+    },
+    "grade_2_secondary_science": {
+      "name": "الصف الثاني الثانوي - علمي علوم",
+      "type": "secondary",
+      "track": "science",
+      "subjects": [
+        {
+          "id": "arabic",
+          "name": "اللغة العربية",
+          "name_en": "Arabic",
+          "keywords": ["إعراب", "نحو", "بلاغة", "فعل", "اسم", "حرف"],
+          "document_id": "arabic_2_sec_science",
+          "term": "term_1"
+        },
+        {
+          "id": "english",
+          "name": "اللغة الإنجليزية",
+          "name_en": "English",
+          "keywords": ["verb", "noun", "adjective", "tense", "grammar"],
+          "document_id": "english_2_sec_science",
+          "term": "term_1"
+        },
+        {
+          "id": "history",
+          "name": "التاريخ",
+          "name_en": "History",
+          "keywords": ["تاريخ", "حضارة", "دولة", "مصر"],
+          "document_id": "history_2_sec_science",
+          "term": "term_1"
+        },
+        {
+          "id": "chemistry",
+          "name": "الكيمياء",
+          "name_en": "Chemistry",
+          "keywords": ["عنصر", "مركب", "تفاعل", "ذرة", "جزيء", "حمض", "قاعدة", "ملح", "أكسدة", "اختزال"],
+          "document_id": "chemistry_2_sec_science",
+          "term": "term_1"
+        },
+        {
+          "id": "biology",
+          "name": "الأحياء",
+          "name_en": "Biology",
+          "keywords": ["خلية", "DNA", "جين", "وراثة", "جهاز", "عضوية", "إنزيم", "بروتين"],
+          "document_id": "biology_2_sec_science",
+          "term": "term_1"
+        }
+      ]
+    },
+    "grade_2_secondary_engineering": {
+      "name": "الصف الثاني الثانوي - هندسة وحاسبات",
+      "type": "secondary",
+      "track": "engineering",
+      "subjects": [
+        {
+          "id": "arabic",
+          "name": "اللغة العربية",
+          "name_en": "Arabic",
+          "keywords": ["إعراب", "نحو", "بلاغة"],
+          "document_id": "arabic_2_sec_eng",
+          "term": "term_1"
+        },
+        {
+          "id": "english",
+          "name": "اللغة الإنجليزية",
+          "name_en": "English",
+          "keywords": ["verb", "noun", "tense", "grammar"],
+          "document_id": "english_2_sec_eng",
+          "term": "term_1"
+        },
+        {
+          "id": "history",
+          "name": "التاريخ",
+          "name_en": "History",
+          "keywords": ["تاريخ", "حضارة"],
+          "document_id": "history_2_sec_eng",
+          "term": "term_1"
+        },
+        {
+          "id": "advanced_math",
+          "name": "الرياضيات المتقدمة",
+          "name_en": "Advanced Mathematics",
+          "keywords": ["جبر", "هندسة", "تفاضل", "تكامل", "مصفوفة", "احتمال"],
+          "document_id": "advanced_math_2_sec_eng",
+          "term": "term_1"
+        },
+        {
+          "id": "physics",
+          "name": "الفيزياء",
+          "name_en": "Physics",
+          "keywords": ["حركة", "قوة", "طاقة", "ضوء", "صوت", "كهرباء", "مغناطيس", "موجة"],
+          "document_id": "physics_2_sec_eng",
+          "term": "term_1"
+        },
+        {
+          "id": "programming",
+          "name": "البرمجة وعلوم الحاسب",
+          "name_en": "Programming & CS",
+          "keywords": ["برمجة", "خوارزمية", "بيانات", "دالة", "متغير", "حلقة", "شرط"],
+          "document_id": "programming_2_sec_eng",
+          "term": "term_1"
+        }
+      ]
+    },
+    "grade_2_secondary_business": {
+      "name": "الصف الثاني الثانوي - قطاع الأعمال",
+      "type": "secondary",
+      "track": "business",
+      "subjects": [
+        {
+          "id": "arabic",
+          "name": "اللغة العربية",
+          "name_en": "Arabic",
+          "keywords": ["إعراب", "نحو", "بلاغة"],
+          "document_id": "arabic_2_sec_business",
+          "term": "term_1"
+        },
+        {
+          "id": "english",
+          "name": "اللغة الإنجليزية",
+          "name_en": "English",
+          "keywords": ["verb", "noun", "tense", "grammar"],
+          "document_id": "english_2_sec_business",
+          "term": "term_1"
+        },
+        {
+          "id": "history",
+          "name": "التاريخ",
+          "name_en": "History",
+          "keywords": ["تاريخ", "حضارة"],
+          "document_id": "history_2_sec_business",
+          "term": "term_1"
+        },
+        {
+          "id": "general_math",
+          "name": "الرياضيات العامة",
+          "name_en": "General Mathematics",
+          "keywords": ["جمع", "طرح", "ضرب", "قسمة", "نسبة", "تناسب", "إحصاء"],
+          "document_id": "general_math_2_sec_business",
+          "term": "term_1"
+        },
+        {
+          "id": "business_admin",
+          "name": "إدارة الأعمال",
+          "name_en": "Business Administration",
+          "keywords": ["إدارة", "تخطيط", "تنظيم", "قيادة", "رقابة", "موارد", "بشرية"],
+          "document_id": "business_admin_2_sec_business",
+          "term": "term_1"
+        },
+        {
+          "id": "accounting",
+          "name": "المحاسبة",
+          "name_en": "Accounting",
+          "keywords": ["محاسبة", "ميزانية", "حساب", "أصول", "خصوم", "إيراد", "مصروف"],
+          "document_id": "accounting_2_sec_business",
+          "term": "term_1"
+        }
+      ]
+    },
+    "grade_2_secondary_literary": {
+      "name": "الصف الثاني الثانوي - أدبي",
+      "type": "secondary",
+      "track": "literary",
+      "subjects": [
+        {
+          "id": "arabic",
+          "name": "اللغة العربية",
+          "name_en": "Arabic",
+          "keywords": ["إعراب", "نحو", "بلاغة", "فعل", "اسم", "حرف", "جملة", "قراءة", "نص", "قصة", "شعر"],
+          "document_id": "arabic_2_sec_lit",
+          "term": "term_1"
+        },
+        {
+          "id": "english",
+          "name": "اللغة الإنجليزية",
+          "name_en": "English",
+          "keywords": ["verb", "noun", "adjective", "tense", "grammar", "vocabulary"],
+          "document_id": "english_2_sec_lit",
+          "term": "term_1"
+        },
+        {
+          "id": "history",
+          "name": "التاريخ",
+          "name_en": "History",
+          "keywords": ["تاريخ", "حضارة", "فرعون", "رومان", "إسلام", "دولة", "خلافة", "مصر"],
+          "document_id": "history_2_sec_lit",
+          "term": "term_1"
+        },
+        {
+          "id": "geography",
+          "name": "الجغرافيا",
+          "name_en": "Geography",
+          "keywords": ["خريطة", "مناخ", "تضاريس", "نهر", "صحراء", "محافظة", "مصر", "عالم"],
+          "document_id": "geography_2_sec_lit",
+          "term": "term_1"
+        },
+        {
+          "id": "psychology",
+          "name": "علم النفس والاجتماع",
+          "name_en": "Psychology & Sociology",
+          "keywords": ["نفس", "سلوك", "شخصية", "مجتمع", "أسرة", "ثقافة", "تنشئة"],
+          "document_id": "psychology_2_sec_lit",
+          "term": "term_1"
+        },
+        {
+          "id": "statistics",
+          "name": "الإحصاء",
+          "name_en": "Statistics",
+          "keywords": ["إحصاء", "بيانات", "متوسط", "وسيط", "منوال", "احتمال"],
+          "document_id": "statistics_2_sec_lit",
+          "term": "term_1"
+        }
+      ]
+    },
+    "grade_3_secondary_science": {
+      "name": "الصف الثالث الثانوي - علمي علوم",
+      "type": "secondary",
+      "track": "science",
+      "subjects": [
+        {
+          "id": "arabic",
+          "name": "اللغة العربية",
+          "name_en": "Arabic",
+          "keywords": ["إعراب", "نحو", "بلاغة"],
+          "document_id": "arabic_3_sec_science",
+          "term": "term_1"
+        },
+        {
+          "id": "english",
+          "name": "اللغة الإنجليزية",
+          "name_en": "English",
+          "keywords": ["verb", "noun", "tense", "grammar"],
+          "document_id": "english_3_sec_science",
+          "term": "term_1"
+        },
+        {
+          "id": "biology",
+          "name": "الأحياء",
+          "name_en": "Biology",
+          "keywords": ["خلية", "DNA", "جين", "وراثة", "جهاز", "عضوية", "إنزيم", "بروتين", "مناعة", "جهاز عصبي"],
+          "document_id": "biology_3_sec_science",
+          "term": "term_1"
+        },
+        {
+          "id": "chemistry",
+          "name": "الكيمياء",
+          "name_en": "Chemistry",
+          "keywords": ["عنصر", "مركب", "تفاعل", "ذرة", "جزيء", "حمض", "قاعدة", "ملح", "أكسدة", "اختزال", "عضوية"],
+          "document_id": "chemistry_3_sec_science",
+          "term": "term_1"
+        },
+        {
+          "id": "physics",
+          "name": "الفيزياء",
+          "name_en": "Physics",
+          "keywords": ["حركة", "قوة", "طاقة", "ضوء", "صوت", "كهرباء", "مغناطيس", "موجة", "نيوكلير"],
+          "document_id": "physics_3_sec_science",
+          "term": "term_1"
+        }
+      ]
+    },
+    "grade_3_secondary_math": {
+      "name": "الصف الثالث الثانوي - علمي رياضة",
+      "type": "secondary",
+      "track": "math",
+      "subjects": [
+        {
+          "id": "arabic",
+          "name": "اللغة العربية",
+          "name_en": "Arabic",
+          "keywords": ["إعراب", "نحو", "بلاغة"],
+          "document_id": "arabic_3_sec_math",
+          "term": "term_1"
+        },
+        {
+          "id": "english",
+          "name": "اللغة الإنجليزية",
+          "name_en": "English",
+          "keywords": ["verb", "noun", "tense", "grammar"],
+          "document_id": "english_3_sec_math",
+          "term": "term_1"
+        },
+        {
+          "id": "math",
+          "name": "الرياضيات",
+          "name_en": "Mathematics",
+          "keywords": ["جبر", "هندسة", "تفاضل", "تكامل", "استاتيكا", "ديناميكا", "مصفوفة", "احتمال", "نهاية", "اشتقاق"],
+          "document_id": "math_3_sec_math",
+          "term": "term_1"
+        },
+        {
+          "id": "physics",
+          "name": "الفيزياء",
+          "name_en": "Physics",
+          "keywords": ["حركة", "قوة", "طاقة", "ضوء", "صوت", "كهرباء", "مغناطيس", "موجة"],
+          "document_id": "physics_3_sec_math",
+          "term": "term_1"
+        },
+        {
+          "id": "chemistry",
+          "name": "الكيمياء",
+          "name_en": "Chemistry",
+          "keywords": ["عنصر", "مركب", "تفاعل", "ذرة", "جزيء", "حمض", "قاعدة", "ملح"],
+          "document_id": "chemistry_3_sec_math",
+          "term": "term_1"
+        }
+      ]
+    },
+    "grade_3_secondary_literary": {
+      "name": "الصف الثالث الثانوي - أدبي",
+      "type": "secondary",
+      "track": "literary",
+      "subjects": [
+        {
+          "id": "arabic",
+          "name": "اللغة العربية",
+          "name_en": "Arabic",
+          "keywords": ["إعراب", "نحو", "بلاغة", "فعل", "اسم", "حرف", "جملة", "قراءة", "نص", "قصة", "شعر"],
+          "document_id": "arabic_3_sec_lit",
+          "term": "term_1"
+        },
+        {
+          "id": "english",
+          "name": "اللغة الإنجليزية",
+          "name_en": "English",
+          "keywords": ["verb", "noun", "adjective", "tense", "grammar", "vocabulary"],
+          "document_id": "english_3_sec_lit",
+          "term": "term_1"
+        },
+        {
+          "id": "history",
+          "name": "التاريخ",
+          "name_en": "History",
+          "keywords": ["تاريخ", "حضارة", "فرعون", "رومان", "إسلام", "دولة", "خلافة", "مصر", "عصر", "عهد"],
+          "document_id": "history_3_sec_lit",
+          "term": "term_1"
+        },
+        {
+          "id": "geography",
+          "name": "الجغرافيا",
+          "name_en": "Geography",
+          "keywords": ["خريطة", "مناخ", "تضاريس", "نهر", "صحراء", "محافظة", "مصر", "عالم"],
+          "document_id": "geography_3_sec_lit",
+          "term": "term_1"
+        },
+        {
+          "id": "psychology",
+          "name": "علم النفس والاجتماع",
+          "name_en": "Psychology & Sociology",
+          "keywords": ["نفس", "سلوك", "شخصية", "مجتمع", "أسرة", "ثقافة", "تنشئة"],
+          "document_id": "psychology_3_sec_lit",
+          "term": "term_1"
+        },
+        {
+          "id": "philosophy",
+          "name": "الفلسفة والمنطق",
+          "name_en": "Philosophy & Logic",
+          "keywords": ["فلسفة", "منطق", "فكر", "أخلاق", "قضية", "استدلال", "برهان"],
+          "document_id": "philosophy_3_sec_lit",
+          "term": "term_1"
+        }
+      ]
+    },
+    "grade_1_azhar_scientific": {
+      "name": "الصف الأول الثانوي الأزهري - علمي",
+      "type": "azhar",
+      "track": "scientific",
+      "subjects": [
+        {"id": "fiqh", "name": "الفقه", "name_en": "Fiqh", "keywords": ["فقه", "عبادة", "طهارة", "صلاة", "زكاة", "صيام", "حج"]},
+        {"id": "tafsir", "name": "التفسير", "name_en": "Tafsir", "keywords": ["تفسير", "قرآن", "آية", "سورة"]},
+        {"id": "hadith", "name": "الحديث", "name_en": "Hadith", "keywords": ["حديث", "سنة", "نبي", "رسول"]},
+        {"id": "tawhid", "name": "التوحيد", "name_en": "Tawhid", "keywords": ["توحيد", "إيمان", "عقيدة", "أسماء", "صفات"]},
+        {"id": "islamic_culture", "name": "الثقافة الإسلامية", "name_en": "Islamic Culture", "keywords": ["ثقافة", "إسلام", "أخلاق", "قيم"]},
+        {"id": "nahw", "name": "النحو", "name_en": "Nahw", "keywords": ["نحو", "إعراب", "فعل", "اسم", "حرف"]},
+        {"id": "sarf", "name": "الصرف", "name_en": "Sarf", "keywords": ["صرف", "ميزان", "فعل", "مصدر"]},
+        {"id": "balagha", "name": "البلاغة", "name_en": "Balagha", "keywords": ["بلاغة", "بيان", "بديع", "معاني"]},
+        {"id": "arabic_lit", "name": "الأدب والنصوص", "name_en": "Arabic Literature", "keywords": ["أدب", "نص", "شعر", "نثر", "قصة"]},
+        {"id": "arabic_writing", "name": "الإنشاء", "name_en": "Arabic Writing", "keywords": ["إنشاء", "موضوع", "تعبير"]},
+        {"id": "english", "name": "اللغة الإنجليزية", "name_en": "English", "keywords": ["verb", "noun", "tense", "grammar"]},
+        {"id": "math", "name": "الرياضيات", "name_en": "Mathematics", "keywords": ["جبر", "هندسة", "معادلة"]},
+        {"id": "chemistry", "name": "الكيمياء", "name_en": "Chemistry", "keywords": ["عنصر", "مركب", "تفاعل"]},
+        {"id": "physics", "name": "الفيزياء", "name_en": "Physics", "keywords": ["حركة", "قوة", "طاقة", "ضوء"]},
+        {"id": "biology", "name": "الأحياء", "name_en": "Biology", "keywords": ["خلية", "جهاز", "عضوية"]},
+        {"id": "cs", "name": "الحاسب الآلي", "name_en": "Computer Science", "keywords": ["حاسب", "برمجة", "خوارزمية"]},
+        {"id": "national", "name": "التربية الوطنية", "name_en": "National Education", "keywords": ["وطن", "مصر", "مواطنة"]}
+      ]
+    },
+    "grade_1_azhar_literary": {
+      "name": "الصف الأول الثانوي الأزهري - أدبي",
+      "type": "azhar",
+      "track": "literary",
+      "subjects": [
+        {"id": "fiqh", "name": "الفقه", "name_en": "Fiqh", "keywords": ["فقه", "عبادة"]},
+        {"id": "tafsir", "name": "التفسير", "name_en": "Tafsir", "keywords": ["تفسير", "قرآن"]},
+        {"id": "hadith", "name": "الحديث", "name_en": "Hadith", "keywords": ["حديث", "سنة"]},
+        {"id": "tawhid", "name": "التوحيد", "name_en": "Tawhid", "keywords": ["توحيد", "إيمان"]},
+        {"id": "islamic_culture", "name": "الثقافة الإسلامية", "name_en": "Islamic Culture", "keywords": ["ثقافة", "إسلام"]},
+        {"id": "nahw", "name": "النحو", "name_en": "Nahw", "keywords": ["نحو", "إعراب"]},
+        {"id": "sarf", "name": "الصرف", "name_en": "Sarf", "keywords": ["صرف", "ميزان"]},
+        {"id": "balagha", "name": "البلاغة", "name_en": "Balagha", "keywords": ["بلاغة", "بيان"]},
+        {"id": "arabic_lit", "name": "الأدب والنصوص", "name_en": "Arabic Literature", "keywords": ["أدب", "نص"]},
+        {"id": "arabic_writing", "name": "الإنشاء", "name_en": "Arabic Writing", "keywords": ["إنشاء", "موضوع"]},
+        {"id": "english", "name": "اللغة الإنجليزية", "name_en": "English", "keywords": ["verb", "noun", "tense"]},
+        {"id": "history", "name": "التاريخ", "name_en": "History", "keywords": ["تاريخ", "حضارة"]},
+        {"id": "geography", "name": "الجغرافيا", "name_en": "Geography", "keywords": ["خريطة", "مناخ"]},
+        {"id": "logic", "name": "المنطق", "name_en": "Logic", "keywords": ["منطق", "استدلال"]},
+        {"id": "french", "name": "اللغة الفرنسية", "name_en": "French", "keywords": ["français", "verbe", "nom"]},
+        {"id": "cs", "name": "الحاسب الآلي", "name_en": "Computer Science", "keywords": ["حاسب", "برمجة"]},
+        {"id": "national", "name": "التربية الوطنية", "name_en": "National Education", "keywords": ["وطن", "مصر"]}
+      ]
+    },
+    "grade_2_azhar_scientific": {
+      "name": "الصف الثاني الثانوي الأزهري - علمي",
+      "type": "azhar",
+      "track": "scientific",
+      "subjects": [
+        {"id": "fiqh", "name": "الفقه", "name_en": "Fiqh", "keywords": ["فقه", "عبادة"]},
+        {"id": "tafsir", "name": "التفسير", "name_en": "Tafsir", "keywords": ["تفسير", "قرآن"]},
+        {"id": "hadith", "name": "الحديث", "name_en": "Hadith", "keywords": ["حديث", "سنة"]},
+        {"id": "tawhid", "name": "التوحيد", "name_en": "Tawhid", "keywords": ["توحيد", "إيمان"]},
+        {"id": "nahw", "name": "النحو", "name_en": "Nahw", "keywords": ["نحو", "إعراب"]},
+        {"id": "sarf", "name": "الصرف", "name_en": "Sarf", "keywords": ["صرف", "ميزان"]},
+        {"id": "balagha", "name": "البلاغة", "name_en": "Balagha", "keywords": ["بلاغة", "بيان"]},
+        {"id": "arabic_lit", "name": "الأدب والنصوص", "name_en": "Arabic Literature", "keywords": ["أدب", "نص"]},
+        {"id": "arabic_writing", "name": "الإنشاء", "name_en": "Arabic Writing", "keywords": ["إنشاء", "موضوع"]},
+        {"id": "english", "name": "اللغة الإنجليزية", "name_en": "English", "keywords": ["verb", "noun", "tense"]},
+        {"id": "algebra", "name": "الجبر والمثلثات", "name_en": "Algebra & Trigonometry", "keywords": ["جبر", "مثلثات", "معادلة"]},
+        {"id": "analytic_geometry", "name": "الهندسة التحليلية", "name_en": "Analytic Geometry", "keywords": ["هندسة", "تحليلية"]},
+        {"id": "mechanics", "name": "تطبيقات الرياضيات (الميكانيكا)", "name_en": "Mechanics", "keywords": ["ميكانيكا", "حركة", "قوة"]},
+        {"id": "chemistry", "name": "الكيمياء", "name_en": "Chemistry", "keywords": ["عنصر", "مركب", "تفاعل"]},
+        {"id": "physics", "name": "الفيزياء", "name_en": "Physics", "keywords": ["حركة", "قوة", "طاقة"]},
+        {"id": "biology", "name": "الأحياء", "name_en": "Biology", "keywords": ["خلية", "جهاز", "عضوية"]},
+        {"id": "citizenship", "name": "المواطنة وحقوق الإنسان", "name_en": "Citizenship", "keywords": ["مواطنة", "حقوق", "إنسان"]}
+      ]
+    },
+    "grade_2_azhar_literary": {
+      "name": "الصف الثاني الثانوي الأزهري - أدبي",
+      "type": "azhar",
+      "track": "literary",
+      "subjects": [
+        {"id": "fiqh", "name": "الفقه", "name_en": "Fiqh", "keywords": ["فقه", "عبادة"]},
+        {"id": "tafsir", "name": "التفسير", "name_en": "Tafsir", "keywords": ["تفسير", "قرآن"]},
+        {"id": "hadith", "name": "الحديث", "name_en": "Hadith", "keywords": ["حديث", "سنة"]},
+        {"id": "tawhid", "name": "التوحيد", "name_en": "Tawhid", "keywords": ["توحيد", "إيمان"]},
+        {"id": "nahw", "name": "النحو", "name_en": "Nahw", "keywords": ["نحو", "إعراب"]},
+        {"id": "sarf", "name": "الصرف", "name_en": "Sarf", "keywords": ["صرف", "ميزان"]},
+        {"id": "balagha", "name": "البلاغة", "name_en": "Balagha", "keywords": ["بلاغة", "بيان"]},
+        {"id": "arabic_lit", "name": "الأدب والنصوص", "name_en": "Arabic Literature", "keywords": ["أدب", "نص"]},
+        {"id": "arabic_writing", "name": "الإنشاء", "name_en": "Arabic Writing", "keywords": ["إنشاء", "موضوع"]},
+        {"id": "arud", "name": "العروض والقافية", "name_en": "Arud & Rhyme", "keywords": ["عروض", "قافية", "شعر"]},
+        {"id": "english", "name": "اللغة الإنجليزية", "name_en": "English", "keywords": ["verb", "noun", "tense"]},
+        {"id": "french", "name": "اللغة الفرنسية", "name_en": "French", "keywords": ["français", "verbe"]},
+        {"id": "history", "name": "التاريخ", "name_en": "History", "keywords": ["تاريخ", "حضارة"]},
+        {"id": "geography", "name": "الجغرافيا", "name_en": "Geography", "keywords": ["خريطة", "مناخ"]},
+        {"id": "logic", "name": "المنطق", "name_en": "Logic", "keywords": ["منطق", "استدلال"]},
+        {"id": "psychology", "name": "علم النفس", "name_en": "Psychology", "keywords": ["نفس", "سلوك", "شخصية"]},
+        {"id": "citizenship", "name": "المواطنة وحقوق الإنسان", "name_en": "Citizenship", "keywords": ["مواطنة", "حقوق"]}
+      ]
+    },
+    "grade_3_azhar_scientific": {
+      "name": "الصف الثالث الثانوي الأزهري - علمي",
+      "type": "azhar",
+      "track": "scientific",
+      "subjects": [
+        {"id": "fiqh", "name": "الفقه", "name_en": "Fiqh", "keywords": ["فقه", "عبادة"]},
+        {"id": "tafsir", "name": "التفسير", "name_en": "Tafsir", "keywords": ["تفسير", "قرآن"]},
+        {"id": "hadith", "name": "الحديث", "name_en": "Hadith", "keywords": ["حديث", "سنة"]},
+        {"id": "tawhid", "name": "التوحيد", "name_en": "Tawhid", "keywords": ["توحيد", "إيمان"]},
+        {"id": "nahw", "name": "النحو", "name_en": "Nahw", "keywords": ["نحو", "إعراب"]},
+        {"id": "sarf", "name": "الصرف", "name_en": "Sarf", "keywords": ["صرف", "ميزان"]},
+        {"id": "balagha", "name": "البلاغة", "name_en": "Balagha", "keywords": ["بلاغة", "بيان"]},
+        {"id": "arabic_lit", "name": "الأدب والنصوص", "name_en": "Arabic Literature", "keywords": ["أدب", "نص"]},
+        {"id": "arabic_writing", "name": "الإنشاء", "name_en": "Arabic Writing", "keywords": ["إنشاء", "موضوع"]},
+        {"id": "english", "name": "اللغة الإنجليزية", "name_en": "English", "keywords": ["verb", "noun", "tense"]},
+        {"id": "algebra_geometry", "name": "الجبر والهندسة الفراغية", "name_en": "Algebra & Solid Geometry", "keywords": ["جبر", "هندسة", "فراغية"]},
+        {"id": "calculus", "name": "التفاضل والتكامل", "name_en": "Calculus", "keywords": ["تفاضل", "تكامل", "نهاية", "اشتقاق"]},
+        {"id": "statics", "name": "الاستاتيكا", "name_en": "Statics", "keywords": ["استاتيكا", "قوة", "اتزان"]},
+        {"id": "dynamics", "name": "الديناميكا", "name_en": "Dynamics", "keywords": ["ديناميكا", "حركة", "عجلة"]},
+        {"id": "chemistry", "name": "الكيمياء", "name_en": "Chemistry", "keywords": ["عنصر", "مركب", "تفاعل"]},
+        {"id": "physics", "name": "الفيزياء", "name_en": "Physics", "keywords": ["حركة", "قوة", "طاقة"]},
+        {"id": "biology", "name": "الأحياء", "name_en": "Biology", "keywords": ["خلية", "جهاز", "عضوية"]}
+      ]
+    },
+    "grade_3_azhar_literary": {
+      "name": "الصف الثالث الثانوي الأزهري - أدبي",
+      "type": "azhar",
+      "track": "literary",
+      "subjects": [
+        {"id": "fiqh", "name": "الفقه", "name_en": "Fiqh", "keywords": ["فقه", "عبادة"]},
+        {"id": "tafsir", "name": "التفسير", "name_en": "Tafsir", "keywords": ["تفسير", "قرآن"]},
+        {"id": "hadith", "name": "الحديث", "name_en": "Hadith", "keywords": ["حديث", "سنة"]},
+        {"id": "tawhid", "name": "التوحيد", "name_en": "Tawhid", "keywords": ["توحيد", "إيمان"]},
+        {"id": "nahw", "name": "النحو", "name_en": "Nahw", "keywords": ["نحو", "إعراب"]},
+        {"id": "sarf", "name": "الصرف", "name_en": "Sarf", "keywords": ["صرف", "ميزان"]},
+        {"id": "balagha", "name": "البلاغة", "name_en": "Balagha", "keywords": ["بلاغة", "بيان"]},
+        {"id": "arabic_lit", "name": "الأدب والنصوص", "name_en": "Arabic Literature", "keywords": ["أدب", "نص"]},
+        {"id": "arabic_writing", "name": "الإنشاء", "name_en": "Arabic Writing", "keywords": ["إنشاء", "موضوع"]},
+        {"id": "arud", "name": "العروض والقافية", "name_en": "Arud & Rhyme", "keywords": ["عروض", "قافية"]},
+        {"id": "english", "name": "اللغة الإنجليزية", "name_en": "English", "keywords": ["verb", "noun", "tense"]},
+        {"id": "french", "name": "اللغة الفرنسية", "name_en": "French", "keywords": ["français", "verbe"]},
+        {"id": "history", "name": "التاريخ", "name_en": "History", "keywords": ["تاريخ", "حضارة"]},
+        {"id": "geography", "name": "الجغرافيا", "name_en": "Geography", "keywords": ["خريطة", "مناخ"]},
+        {"id": "logic", "name": "المنطق", "name_en": "Logic", "keywords": ["منطق", "استدلال"]}
+      ]
+    }
+  }
+}

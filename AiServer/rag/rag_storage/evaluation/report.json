@@ -1,0 +1,287 @@
+{
+  "summary": {
+    "questions": 54,
+    "recall_at_1": 0.8518518518518519,
+    "recall_at_3": 0.9074074074074074,
+    "recall_at_5": 0.9814814814814815,
+    "recall_at_10": 1.0,
+    "mrr": 0.8981481481481481,
+    "failed_questions": 0,
+    "average_top_1_similarity": 0.6437056111111111,
+    "average_top_5_similarity": 0.5415790037037037,
+    "verified_questions": 54,
+    "malformed_questions": 0
+  },
+  "by_subject": {
+    "science": {
+      "questions": 54,
+      "recall_at_1": 0.8518518518518519,
+      "recall_at_3": 0.9074074074074074,
+      "recall_at_5": 0.9814814814814815,
+      "recall_at_10": 1.0,
+      "mrr": 0.8981481481481481,
+      "failed_questions": 0,
+      "average_top_1_similarity": 0.6437056111111111,
+      "average_top_5_similarity": 0.5415790037037037
+    }
+  },
+  "by_chapter": {
+    "الأرض والنظام الشمسي": {
+      "questions": 3,
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "mrr": 1.0,
+      "failed_questions": 0,
+      "average_top_1_similarity": 0.6615516666666666,
+      "average_top_5_similarity": 0.547405
+    },
+    "الجدول الدوري": {
+      "questions": 8,
+      "recall_at_1": 0.5,
+      "recall_at_3": 0.5,
+      "recall_at_5": 0.875,
+      "recall_at_10": 1.0,
+      "mrr": 0.59375,
+      "failed_questions": 0,
+      "average_top_1_similarity": 0.61113725,
+      "average_top_5_similarity": 0.536518
+    },
+    "الخلايا والحياة": {
+      "questions": 4,
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "mrr": 1.0,
+      "failed_questions": 0,
+      "average_top_1_similarity": 0.684083,
+      "average_top_5_similarity": 0.57290655
+    },
+    "الروابط الكيميائية": {
+      "questions": 3,
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "mrr": 1.0,
+      "failed_questions": 0,
+      "average_top_1_similarity": 0.6705033333333333,
+      "average_top_5_similarity": 0.5778288666666667
+    },
+    "الصفات العامة للكائنات الحية": {
+      "questions": 4,
+      "recall_at_1": 0.75,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "mrr": 0.875,
+      "failed_questions": 0,
+      "average_top_1_similarity": 0.652261,
+      "average_top_5_similarity": 0.5485773
+    },
+    "القوى الكهربية": {
+      "questions": 4,
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "mrr": 1.0,
+      "failed_questions": 0,
+      "average_top_1_similarity": 0.67120125,
+      "average_top_5_similarity": 0.5318655
+    },
+    "القوى المغناطيسية": {
+      "questions": 2,
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "mrr": 1.0,
+      "failed_questions": 0,
+      "average_top_1_similarity": 0.6564845,
+      "average_top_5_similarity": 0.5337322
+    },
+    "المادة وخصائصها": {
+      "questions": 2,
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "mrr": 1.0,
+      "failed_questions": 0,
+      "average_top_1_similarity": 0.6526905000000001,
+      "average_top_5_similarity": 0.5273452000000001
+    },
+    "الميكروبات": {
+      "questions": 3,
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "mrr": 1.0,
+      "failed_questions": 0,
+      "average_top_1_similarity": 0.628013,
+      "average_top_5_similarity": 0.47917553333333335
+    },
+    "تدريبات الخلايا والحياة": {
+      "questions": 1,
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "mrr": 1.0,
+      "failed_questions": 0,
+      "average_top_1_similarity": 0.606523,
+      "average_top_5_similarity": 0.5101172
+    },
+    "تدريبات الروابط الكيميائية": {
+      "questions": 1,
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "mrr": 1.0,
+      "failed_questions": 0,
+      "average_top_1_similarity": 0.554782,
+      "average_top_5_similarity": 0.5087018
+    },
+    "تدريبات الصفات العامة للكائنات الحية": {
+      "questions": 1,
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "mrr": 1.0,
+      "failed_questions": 0,
+      "average_top_1_similarity": 0.56084,
+      "average_top_5_similarity": 0.5129463999999999
+    },
+    "تدريبات القوى الكهربية": {
+      "questions": 1,
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "mrr": 1.0,
+      "failed_questions": 0,
+      "average_top_1_similarity": 0.619335,
+      "average_top_5_similarity": 0.568229
+    },
+    "تدريبات القوى المغناطيسية": {
+      "questions": 1,
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "mrr": 1.0,
+      "failed_questions": 0,
+      "average_top_1_similarity": 0.683997,
+      "average_top_5_similarity": 0.5617418
+    },
+    "تدريبات المادة وخصائصها": {
+      "questions": 1,
+      "recall_at_1": 0.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "mrr": 0.5,
+      "failed_questions": 0,
+      "average_top_1_similarity": 0.593848,
+      "average_top_5_similarity": 0.4684034
+    },
+    "تدريبات تركيب الذرة": {
+      "questions": 1,
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "mrr": 1.0,
+      "failed_questions": 0,
+      "average_top_1_similarity": 0.7247,
+      "average_top_5_similarity": 0.5678542
+    },
+    "تدريبات خسوف القمر": {
+      "questions": 1,
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "mrr": 1.0,
+      "failed_questions": 0,
+      "average_top_1_similarity": 0.620747,
+      "average_top_5_similarity": 0.554887
+    },
+    "تركيب الذرة": {
+      "questions": 6,
+      "recall_at_1": 0.8333333333333334,
+      "recall_at_3": 0.8333333333333334,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "mrr": 0.875,
+      "failed_questions": 0,
+      "average_top_1_similarity": 0.6696956666666667,
+      "average_top_5_similarity": 0.5605138333333333
+    },
+    "خسوف القمر": {
+      "questions": 3,
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "mrr": 1.0,
+      "failed_questions": 0,
+      "average_top_1_similarity": 0.6208670000000001,
+      "average_top_5_similarity": 0.5345181999999999
+    },
+    "قوى الجاذبية": {
+      "questions": 4,
+      "recall_at_1": 0.75,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "mrr": 0.875,
+      "failed_questions": 0,
+      "average_top_1_similarity": 0.6241807500000001,
+      "average_top_5_similarity": 0.54620585
+    }
+  },
+  "by_difficulty": {
+    "easy": {
+      "questions": 23,
+      "recall_at_1": 0.782608695652174,
+      "recall_at_3": 0.8695652173913043,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "mrr": 0.8543478260869565,
+      "failed_questions": 0,
+      "average_top_1_similarity": 0.6466939565217391,
+      "average_top_5_similarity": 0.5473154695652174
+    },
+    "hard": {
+      "questions": 5,
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "mrr": 1.0,
+      "failed_questions": 0,
+      "average_top_1_similarity": 0.6438954,
+      "average_top_5_similarity": 0.5711322
+    },
+    "medium": {
+      "questions": 26,
+      "recall_at_1": 0.8846153846153846,
+      "recall_at_3": 0.9230769230769231,
+      "recall_at_5": 0.9615384615384616,
+      "recall_at_10": 1.0,
+      "mrr": 0.9173076923076924,
+      "failed_questions": 0,
+      "average_top_1_similarity": 0.6410255769230768,
+      "average_top_5_similarity": 0.5308211307692308
+    }
+  },
+  "failures": [],
+  "malformed_questions": []
+}

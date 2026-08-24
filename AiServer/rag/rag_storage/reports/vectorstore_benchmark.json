@@ -1,0 +1,23 @@
+{
+  "backend": "sqlite-vec",
+  "description": "Local production vector backend benchmark (~100-page textbook scale)",
+  "chunks": 800,
+  "dimension": 768,
+  "top_k": 12,
+  "upsert_ms": 914.58,
+  "query_ms": {
+    "min": 2.23,
+    "median": 2.84,
+    "max": 3.76,
+    "samples": [
+      3.7,
+      3.76,
+      2.84,
+      2.77,
+      2.23
+    ]
+  },
+  "returned": 12,
+  "top_score": 0.1136,
+  "db_path": "storage/benchmark_vectors.db"
+}
