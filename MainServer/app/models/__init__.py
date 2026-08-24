@@ -9,3 +9,4 @@ from .message import Message
 from .ai_request import AIRequest
 from .payment import Payment
 from .password_reset_token import PasswordResetToken
+from .email_verification import EmailVerificationToken
