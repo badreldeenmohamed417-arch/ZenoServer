@@ -6,6 +6,8 @@ from sqlalchemy.exc import IntegrityError
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.core.config import settings
+from google.oauth2 import id_token
+from google.auth.transport import requests
 from app.core.security import (
     create_access_token,
     hash_password,
@@ -308,9 +310,9 @@ class AuthService:
         user_agent: str | None,
     ) -> dict:
         try:
-            id_info = settings.google_id_token.verify_oauth2_token(
+            id_info = id_token.verify_oauth2_token(
                 data.id_token,
-                settings.google_requests.Request(),
+                requests.Request(),
                 settings.GOOGLE_CLIENT_ID,
             )
         except Exception as exc:

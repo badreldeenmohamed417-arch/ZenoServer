@@ -109,9 +109,8 @@ def _build_email_template(
 
 
 async def send_password_reset(to_email: str, token: str, language: str = "ar") -> None:
-    reset_base = getattr(settings, "PASSWORD_RESET_URL", "").rstrip("/") or _url("/auth/reset-password")
-    separator = "&" if "?" in reset_base else "?"
-    raw_link = f"{reset_base}{separator}{urlencode({'token': token})}"
+    # استخدام الرابط المطلوب مع الـ token
+    raw_link = f"http://www.nexorai/reset-code-page?token={token}"
     link = html.escape(raw_link, quote=True)
 
     is_arabic = language == "ar"
@@ -139,9 +138,8 @@ async def send_password_reset(to_email: str, token: str, language: str = "ar") -
 
 
 async def send_email_verification(to_email: str, token: str, language: str = "ar") -> None:
-    verify_base = getattr(settings, "EMAIL_VERIFY_URL", "").rstrip("/") or _url("/auth/verify-email")
-    separator = "&" if "?" in verify_base else "?"
-    raw_link = f"{verify_base}{separator}{urlencode({'token': token})}"
+    # استخدام الرابط المطلوب مع الـ token
+    raw_link = f"http://www.nexorai/verify-email-page?token={token}"
     link = html.escape(raw_link, quote=True)
 
     is_arabic = language == "ar"
