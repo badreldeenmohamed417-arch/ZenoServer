@@ -1,11 +1,18 @@
-from fastapi import FastAPI
-# استيراد كائنات الـ FastAPI الأصلية من ملفاتك الحالية
-from AiServer.main import app as ai_app
-from MainServer.app.main import app as main_app
+import sys
+from pathlib import Path
 
-# السيرفر الرئيسي (الذي سيعالجه Vercel وتصل إليه الطلبات العامة)
+BASE_DIR = Path(__file__).resolve().parent
+sys.path.extend([str(BASE_DIR), str(BASE_DIR / "MainServer")])
+
+from fastapi import FastAPI
+from MainServer.app.main import app as main_app
+from AiServer.main import app as ai_app
+
 app = FastAPI()
 
-# دمج السيرفرين
-app.mount("/ai", ai_app)        # الوصول لـ AiServer سيكون عبر /ai/path
-app.mount("/main", main_app)    # الوصول لـ MainServer سيكون عبر /main/path
+@app.get("/")
+def read_root():
+    return {"status": "ok", "message": "Server is running successfully!"}
+
+app.mount("/main", main_app)
+app.mount("/ai", ai_app)
